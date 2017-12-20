@@ -12,3 +12,31 @@ header.header .logo .header-logo {
   background-image: url("https://raw.githubusercontent.com/Nattarat/travigo12go/master/images/logo-travigo-white.svg");
   background-size: 100px 32px;
 }
+
+a,
+.modal5ms.a {
+  border-bottom: 0;
+  color: #80C342;
+}
+
+.block-title,
+.markdowned h3,
+.markdowned-blog h3,
+.page-content h3,
+.template-travel-to .trips-head,
+.trips .trip-ticket {
+  border-color: #80C342;
+}
+
+.note.note-success {
+  border-color: #80C342 !important;
+}
+
+.datepicker table tr td.active.active {
+  background-color: #80C342;
+  border-color: #80C342;
+}
+
+.note.note-info {
+  background-color: #f7f7f7;
+}

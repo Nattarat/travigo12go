@@ -3,6 +3,7 @@
 $color-black: #000000;
 $color-green: #80C342;
 $color-blue: #6ECDE6;
+$color-gray-1: #f7f7f7;
 
 // Button
 // ------------------------------------------------
@@ -29,6 +30,36 @@ header {
             }
         }
     }
+}
+
+// Other
+// ------------------------------------------------
+a,
+.modal5ms.a {
+    border-bottom: 0;
+    color: $color-green;
+}
+
+.block-title,
+.markdowned h3,
+.markdowned-blog h3,
+.page-content h3,
+.template-travel-to .trips-head,
+.trips .trip-ticket {
+    border-color: $color-green;
+}
+
+.note.note-success {
+    border-color: $color-green !important;
+}
+
+.datepicker table tr td.active.active {
+    background-color: $color-green;
+    border-color: $color-green;
+}
+
+.note.note-info {
+    background-color: $color-gray-1;
 }
 
 // Main class for table with list of available routes
