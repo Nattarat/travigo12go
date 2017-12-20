@@ -1,0 +1,14 @@
+.btn.btn-primary {
+  background-color: #80C342;
+}
+
+.btn.btn-success {
+  background-color: #6ECDE6;
+}
+
+header.header .logo .header-logo {
+  width: 100px;
+  height: 32px;
+  background-image: url("https://raw.githubusercontent.com/Nattarat/travigo12go/master/images/logo-travigo-white.svg");
+  background-size: 100px 32px;
+}

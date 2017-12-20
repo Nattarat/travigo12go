@@ -1,3 +1,35 @@
+// Variables
+// ------------------------------------------------
+$color-black: #000000;
+$color-green: #80C342;
+$color-blue: #6ECDE6;
+
+// Button
+// ------------------------------------------------
+.btn {
+    &.btn-primary {
+        background-color: $color-green;
+    }
+
+    &.btn-success {
+        background-color: $color-blue;
+    }
+}
+
+// Logo
+// ------------------------------------------------
+header {
+    &.header {
+        .logo {
+            .header-logo {
+                width: 100px;
+                height: 32px;
+                background-image: url('https://raw.githubusercontent.com/Nattarat/travigo12go/master/images/logo-travigo-white.svg');
+                background-size: 100px 32px;
+            }
+        }
+    }
+}
 
 // Main class for table with list of available routes
 // ------------------------------------------------
