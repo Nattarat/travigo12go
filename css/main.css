@@ -1,3 +1,4 @@
+@charset "UTF-8";
 .btn.btn-primary {
   background-color: #80C342;
 }
@@ -9,9 +10,15 @@
 header.header .logo .header-logo {
   width: 100px;
   height: 32px;
-  margin-left: 5px;
-  background-image: url("https://raw.githubusercontent.com/Nattarat/travigo12go/master/images/logo-travigo-white.png");
+  margin-left: 4px;
+  background-image: url("http://handigo.run/img/logo-travigo-single-white.svg");
   background-size: 100px 32px;
+}
+
+@media screen and (max-width: 767px) {
+  header.header .logo .header-logo {
+    margin-left: 7px;
+  }
 }
 
 a,
@@ -40,4 +47,78 @@ a,
 
 .note.note-info {
   background-color: #f7f7f7;
+}
+
+.lang-cn h1.page-title,
+.lang-de h1.page-title,
+.lang-en h1.page-title,
+.lang-es h1.page-title,
+.lang-fr h1.page-title,
+.lang-jp h1.page-title,
+.lang-ru h1.page-title,
+.lang-th h1.page-title,
+.lang-vi h1.page-title {
+  font-size: 0;
+}
+
+.lang-cn h1.page-title:before,
+.lang-de h1.page-title:before,
+.lang-en h1.page-title:before,
+.lang-es h1.page-title:before,
+.lang-fr h1.page-title:before,
+.lang-jp h1.page-title:before,
+.lang-ru h1.page-title:before,
+.lang-th h1.page-title:before,
+.lang-vi h1.page-title:before {
+  font-size: 20px;
+}
+
+@media (min-width: 992px) {
+  .lang-cn h1.page-title:before,
+  .lang-de h1.page-title:before,
+  .lang-en h1.page-title:before,
+  .lang-es h1.page-title:before,
+  .lang-fr h1.page-title:before,
+  .lang-jp h1.page-title:before,
+  .lang-ru h1.page-title:before,
+  .lang-th h1.page-title:before,
+  .lang-vi h1.page-title:before {
+    font-size: 36px;
+  }
+}
+
+.lang-cn h1.page-title:before {
+  content: '泰国旅行计划-巴士，渡轮，班机，铁路';
+}
+
+.lang-de h1.page-title:before {
+  content: 'Reiseplanung für Busse, Fähren, Flüge und Zugfahrkarten in Thailand.';
+}
+
+.lang-en h1.page-title:before {
+  content: 'Travel Planning in Thailand — Book Trains, Buses, Ferries, Transfers & Flights';
+}
+
+.lang-es h1.page-title:before {
+  content: 'Confirmación instantánea de asientos en autobuses, barcos, vuelos y trenes del Tailandia.';
+}
+
+.lang-fr h1.page-title:before {
+  content: 'Confirmation de siège instantanée pour les autobus, les ferries, les vols et les chemins de fer en Thaïlande';
+}
+
+.lang-jp h1.page-title:before {
+  content: 'タイで一番のバス、鉄道、フェリー、飛行機のオンライン予約サイト';
+}
+
+.lang-ru h1.page-title:before {
+  content: 'Все билеты на автобусы, паромы, перелеты и ж/д в Таиланд';
+}
+
+.lang-th h1.page-title:before {
+  content: 'มั่นใจว่าได้ที่นั่งแน่นอนสำหรับ รถโดยสาร เรือเฟอร์รี่ เครื่องบิน และรถไฟ ในประเทศไทย';
+}
+
+.lang-vi h1.page-title:before {
+  content: 'Kế hoạch du lịch tại nước Thái Lan - xe buýt, tàu phà, máy bay, tàu hỏa';
 }
